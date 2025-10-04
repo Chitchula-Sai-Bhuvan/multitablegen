@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multiplication Table Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card" role="main">
+<h1>Multiplication Table Generator</h1>
+<p class="lead">Enter a number to generate its multiplication table.</p>
+<div class="controls">
+<div class="field">
+<label for="number">Number</label>
+<input type="number" id="number" placeholder="Enter a number">
+</div>
+<button class="btn" onclick="generateTable()">Generate</button>
+<button class="btn secondary" onclick="clearTable()">Clear</button>
+</div>
+<div class="result" id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
